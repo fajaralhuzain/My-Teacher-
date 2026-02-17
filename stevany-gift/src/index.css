@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-darkBg text-white font-sans overflow-x-hidden;
+  }
+}
+
+.glow-text {
+  text-shadow:
+    0 0 10px #ff00ff,
+    0 0 20px #bf00ff;
+}
+
+.glass-card {
+  @apply bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-xl;
+}
